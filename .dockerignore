@@ -25,6 +25,3 @@ htmlcov
 .gitignore
 *.csv
 *.xlsx
-.ipynb
-online_app/
-market_basket_analysis/
