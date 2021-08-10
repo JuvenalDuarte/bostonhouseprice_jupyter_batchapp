@@ -6,3 +6,5 @@ ADD requirements.txt /app/
 RUN pip install -r requirements.txt
 
 ADD . /app
+
+CMD echo "This is a test." | wc -
