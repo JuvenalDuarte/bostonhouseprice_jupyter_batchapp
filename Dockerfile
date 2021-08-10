@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 
 ADD . /app
 
-CMD echo "This is a test." | wc -
+CMD ["runipy", "bhp_trainmodel.ipynb"]
